@@ -1,0 +1,8 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="39.79243">
+<testsuite name="tests\project.spec.ts" timestamp="2024-05-22T19:37:15.936Z" hostname="Chromium" tests="2" failures="0" skipped="0" time="17.852" errors="0">
+<testcase name="Automation Testing Demo › TC001 -Positive scenario Test Cases" classname="tests\project.spec.ts" time="13.54">
+</testcase>
+<testcase name="Automation Testing Demo › TC002 - Negative Scenarios test cases" classname="tests\project.spec.ts" time="4.312">
+</testcase>
+</testsuite>
+</testsuites>

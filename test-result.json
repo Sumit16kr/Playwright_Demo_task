@@ -1,0 +1,191 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\sumit\\Playwright existing project\\Playwright_Demo_task\\playwright.config.ts",
+    "rootDir": "C:/Users/sumit/Playwright existing project/Playwright_Demo_task",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json",
+          "outputFolder": "Test-Report"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml",
+          "outputFolder": "Test-Report"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "Test-Report"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/sumit/Playwright existing project/Playwright_Demo_task/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "C:/Users/sumit/Playwright existing project/Playwright_Demo_task",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/sumit/Playwright existing project/Playwright_Demo_task/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Firefox",
+        "name": "Firefox",
+        "testDir": "C:/Users/sumit/Playwright existing project/Playwright_Demo_task",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/sumit/Playwright existing project/Playwright_Demo_task/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Webkit",
+        "name": "Webkit",
+        "testDir": "C:/Users/sumit/Playwright existing project/Playwright_Demo_task",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.44.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\project.spec.ts",
+      "file": "tests/project.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Automation Testing Demo",
+          "file": "tests/project.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC001 -Positive scenario Test Cases",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 13540,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-05-22T19:37:16.412Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c3e5bf8d34fbd4cddfdc-c50c149b1f0ca44b1e1b",
+              "file": "tests/project.spec.ts",
+              "line": 5,
+              "column": 5
+            },
+            {
+              "title": "TC002 - Negative Scenarios test cases",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 4312,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-05-22T19:37:38.044Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c3e5bf8d34fbd4cddfdc-631167b81f8ca8d1ecfa",
+              "file": "tests/project.spec.ts",
+              "line": 74,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-05-22T19:37:15.854Z",
+    "duration": 39792.43,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
