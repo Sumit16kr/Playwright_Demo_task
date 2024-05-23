@@ -9,7 +9,7 @@ test('TC001 -Positive scenario Test Cases', async ({ page }) => {
     
     await page.waitForLoadState('load');
     await page.waitForLoadState('domcontentloaded'); 
-    //Test Case 1- verify placeholder - Positive
+    //Test Case 1- verify placeholder
     expect(await page.getByTestId('text-input').getAttribute('placeholder')).toBe('What needs to be done?')
     
     //Test Case 2-  Verify entered  todo item is added to the list
@@ -55,7 +55,7 @@ test('TC001 -Positive scenario Test Cases', async ({ page }) => {
     expect(elecountLenComp).toBe(1)
     expect(await page.locator("//*[@data-testid='todo-item-label']").textContent()).toBe('test2')
 
-    //Test Case 8- Verify completed tab  
+    //Test Case 8- Verify Clear completed feature  
 
     await page.getByRole('button', { name: 'Clear completed' }).click()
     await expect(page.getByTestId('todo-item-label')).toBeHidden();
