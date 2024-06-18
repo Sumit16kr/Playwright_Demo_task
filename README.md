@@ -44,3 +44,4 @@ The actual code for the Test cases are present inside file named "project.spec.t
     Test case 2-Verify that completed task is not shown in active tab
     Test case 3-Verify that renaming, renames the task
     Test case 4-Verify that clearing completed task removes the footer section
+    conflict test
