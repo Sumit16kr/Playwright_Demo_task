@@ -4,7 +4,7 @@ The framework is created with Playwright as a testing tool and typescript as a l
 # Why playwright ?
 I chose Playwright for UI automation due to its advanced capabilities and modern approach, including its use of WebSocket communication. This allows for real-time, bidirectional communication between the testing script and the browser, resulting in faster, more reliable tests. WebSocket usage enhances debugging, as it enables immediate feedback and interaction with the browser. Playwright’s support for multiple browsers and its ability to handle complex UI interactions, combined with these efficient communication methods, make it an excellent choice for thorough and efficient UI automation.
 
-
+test conflict
 # Prerequisite (Installations)
 Node js (version 20x or higher)
 Visual studio code 
